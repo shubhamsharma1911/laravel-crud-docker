@@ -23,7 +23,7 @@ services:
 
   #DB Service
   lr_database:
-    image: mysql:5.7
+    image: mariadb:latest
     container_name: lr_database
     restart: always
     working_dir: /etc/mysql
